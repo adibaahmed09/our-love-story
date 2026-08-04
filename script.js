@@ -1,3 +1,1 @@
-function checkPassword() {
-  alert("Button works!");
-}
+alert("JavaScript Loaded!");
