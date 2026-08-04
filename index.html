@@ -1,81 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Happy Birthday My Love ❤️</title>
-
-  <link rel="stylesheet" href="style.css">
-
-  <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&family=Pacifico&display=swap" rel="stylesheet">
-
-</head>
-
+<html>
 <body>
 
-  <!-- PASSWORD PAGE -->
+<h1>Test Password</h1>
 
-  <section id="passwordPage"><section id="envelopePage" class="hidden">
+<input id="password" type="password">
 
-    <div class="envelope-card">
-
-        <img src="envelope.png" class="envelope">
-
-        <h1>💌 Wanna Open?</h1>
-
-        <button onclick="openEnvelope()">
-            Yes 💖
-        </button>
-
-    </div>
-
-</section>
-    
-    <div class="password-card">
-
-    <h1>Happy Birthday</h1>
-
-    <p>
-        A little surprise is waiting just for you...
-    </p>
-
-    <input
-        type="password"
-        id="password"
-        placeholder="Enter our secret password">
-<button id="openBtn">
-    Open My Surprise
+<button onclick="checkPassword()">
+Click
 </button>
 
-    <p id="message"></p>
-
-</div>
-
-  <section id="envelopePage">
-
-    <div class="envelope-card">
-
-        <div class="envelope">
-            💌
-        </div>
-
-        <h1>Wanna Open?</h1>
-
-        <button onclick="openEnvelope()">
-            Yes 💖
-        </button>
-
-    </div>
-
-</section>
+<p id="message"></p>
 
 <script src="./script.js"></script>
 
 </body>
-
 </html>
