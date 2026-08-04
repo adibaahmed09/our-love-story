@@ -1,18 +1,204 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Our Love Story 💖</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+
 <body>
 
-<h1>Test Password</h1>
 
-<input id="password" type="password">
+<!-- PASSWORD PAGE -->
+
+<section id="passwordPage" class="page">
+
+<div class="card">
+
+<h1>💌 A Surprise For You</h1>
+
+<p>
+Enter the secret password to open your surprise
+</p>
+
+
+<input 
+type="password"
+id="password"
+placeholder="Secret password">
+
 
 <button onclick="checkPassword()">
-Click
+Open Surprise 💖
 </button>
+
 
 <p id="message"></p>
 
-<script src="./script.js"></script>
+
+</div>
+
+</section>
+
+
+
+<!-- ENVELOPE PAGE -->
+
+<section id="envelopePage" class="page hidden">
+
+
+<div class="card">
+
+
+<div class="envelope">
+💌
+</div>
+
+
+<h1>
+Wanna Open?
+</h1>
+
+
+<button onclick="openQuestions()">
+YES 💖
+</button>
+
+
+</div>
+
+
+</section>
+
+
+
+<!-- QUESTIONS PAGE -->
+
+<section id="questionPage" class="page hidden">
+
+
+<div class="card">
+
+
+<h1 id="question">
+Question 1 💕
+</h1>
+
+
+<button onclick="answerYes()">
+YES 💖
+</button>
+
+
+<button onclick="answerNo()">
+NO 😢
+</button>
+
+
+<p id="reaction"></p>
+
+
+</div>
+
+
+</section>
+
+
+
+<!-- LETTER PAGE -->
+
+<section id="letterPage" class="page hidden">
+
+
+<div class="card">
+
+<h1>
+💌 A Letter For You
+</h1>
+
+
+<p>
+My love, this little surprise is made with lots of love ❤️
+</p>
+
+
+<button onclick="showMemories()">
+See Our Memories 📸
+</button>
+
+
+</div>
+
+
+</section>
+
+
+
+<!-- MEMORIES PAGE -->
+
+<section id="memoryPage" class="page hidden">
+
+
+<div class="card">
+
+<h1>
+Our Beautiful Memories 📸
+</h1>
+
+
+<div id="gallery">
+
+</div>
+
+
+<button onclick="showGift()">
+See Your Main Gift 🎁
+</button>
+
+
+</div>
+
+
+</section>
+
+
+
+<!-- GIFT PAGE -->
+
+<section id="giftPage" class="page hidden">
+
+
+<div class="card">
+
+<h1>
+Your Main Gift 🎁
+</h1>
+
+
+<video width="300" controls>
+
+<source src="video.mp4">
+
+</video>
+
+
+</div>
+
+
+</section>
+
+
+
+<script src="script.js"></script>
+
 
 </body>
+
 </html>
