@@ -1,14 +1,11 @@
-function checkPassword() {
 
+function checkPassword() {
     const password = document.getElementById("password").value;
     const message = document.getElementById("message");
 
     if (password === "01012023") {
-        message.style.color = "green";
-        message.textContent = "💖 Correct Password!";
+        message.innerHTML = "💖 Welcome! Opening your surprise...";
     } else {
-        message.style.color = "red";
-        message.textContent = "❌ Wrong Password!";
+        message.innerHTML = "💔 Wrong password, try again!";
     }
-
 }
