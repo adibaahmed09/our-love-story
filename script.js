@@ -1,26 +1,12 @@
-function checkPassword(if (password === "01012023") {
+function checkPassword(){
 
-    document.getElementById("passwordPage").style.display="none";
+let pass = document.getElementById("password").value;
 
-    document.getElementById("envelopePage").classList.remove("hidden");
-
-}) {
-
-    const password = document.getElementById("password").value;
-    const message = document.getElementById("message");
-
-    if (password === "01012023") {
-
-        message.innerHTML = "💖 Correct Password!";
-
-    } else {
-
-        message.innerHTML = "💔 Wrong Password!";
-function openEnvelope(){
-
-    alert("💖 Next surprise coming!");
-
+if(pass === "01012023"){
+document.getElementById("message").innerHTML="YES WORKING ❤️";
 }
-    }
+else{
+document.getElementById("message").innerHTML="WRONG";
+}
 
 }
