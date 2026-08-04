@@ -1,1 +1,189 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
 
+
+body{
+
+    min-height:100vh;
+
+    font-family:'Arial', sans-serif;
+
+    background:linear-gradient(
+        135deg,
+        #fff0f6,
+        #fff8e7,
+        #f3f0ff
+    );
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    overflow:hidden;
+
+}
+
+
+/* ALL PAGES */
+
+.page{
+
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+}
+
+
+.hidden{
+
+    display:none !important;
+
+}
+
+
+
+/* CARD */
+
+.card{
+
+    width:350px;
+
+    background:rgba(255,255,255,0.9);
+
+    padding:35px 25px;
+
+    border-radius:35px;
+
+    text-align:center;
+
+    box-shadow:
+    0 15px 40px rgba(255,120,160,0.2);
+
+}
+
+
+
+.card h1{
+
+    color:#ff6fa7;
+
+    font-size:28px;
+
+    margin-bottom:20px;
+
+}
+
+
+
+.card p{
+
+    color:#777;
+
+    margin-bottom:20px;
+
+    line-height:1.5;
+
+}
+
+
+
+/* INPUT */
+
+input{
+
+    width:100%;
+
+    padding:15px;
+
+    border:none;
+
+    outline:none;
+
+    border-radius:20px;
+
+    background:#fff0f6;
+
+    font-size:16px;
+
+}
+
+
+
+/* BUTTON */
+
+button{
+
+    width:100%;
+
+    margin-top:15px;
+
+    padding:15px;
+
+    border:none;
+
+    border-radius:25px;
+
+    background:#ff85b3;
+
+    color:white;
+
+    font-size:17px;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+
+
+button:hover{
+
+    transform:scale(1.05);
+
+}
+
+
+
+/* ENVELOPE */
+
+.envelope{
+
+    font-size:80px;
+
+    animation:float 2s infinite ease-in-out;
+
+}
+
+
+
+@keyframes float{
+
+    0%{
+        transform:translateY(0);
+    }
+
+    50%{
+        transform:translateY(-15px);
+    }
+
+    100%{
+        transform:translateY(0);
+    }
+
+}
+
+
+
+/* VIDEO */
+
+video{
+
+    border-radius:20px;
+
+}
